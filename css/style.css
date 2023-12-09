@@ -1,0 +1,290 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6,p,a,span{
+	font-family: 'Rubik', sans-serif;
+}
+header{
+	width:100%;
+}
+body{
+	background:#FBFBFB;
+}
+.navbar{
+	display:flex;
+	padding:0px 20px;
+	
+	height:100px;
+	justify-content:space-between;
+	align-items:center;
+
+}
+.logo{
+	flex-basis:20%;
+	padding:50px;
+	
+}
+.navigation{
+	flex-basis:50%;
+
+	
+}
+
+ .btn1{
+   padding: 14px 20px;
+	color:#3F9457;
+    font-size: 16px;    
+    font-weight: 700;   
+    border-radius: 5px;    
+    transition: .5s;
+    border: 1px solid #fff;
+    background-color: #E0F2E5;
+   
+    cursor: pointer;
+ }
+  .btn2{
+    padding: 14px 20px;
+  
+    font-size: 16px;    
+    font-weight: 700;   
+    border-radius: 5px;    
+    transition: .5s;
+    border: 1px solid #fff;
+    background-color: #51B56D;
+    color: #fff;
+    cursor: pointer;
+ }
+
+
+
+.btn-logo{
+	display:flex;
+	flex-basis:25%;
+	justify-content:space-evenly;
+	
+	
+}
+/*-----*/
+.navbar-menu>li{
+    display: inline-block;
+
+}
+.navbar-menu>li>a{
+  padding:0px 20px;
+	font-family: 'Rubik', sans-serif;
+	color:#040404;
+	font-size:15px;
+	font-weight:700;
+    position: relative;
+}
+.dropDownToggle{
+    position: relative;
+}
+.dropDownToggle:hover  .dropDown{
+    display: inline-block;
+}
+.dropDown{
+    background-color: rgb(214, 214, 214);
+    padding: 10%;
+    border-radius: 8px;
+    width: 170px;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    display: none;
+}
+.dropDown>li{
+   
+	list-style-type:none;
+  
+}
+.dropDown>li>a{
+    color: #1e2125;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+    display: inline-block;
+	font-family: 'Rubik', sans-serif;
+ 
+}
+.dropDown>li>a:hover{
+	color:#51B56D;
+}
+
+
+.navbar-menu>li>a::after{
+    content: '';
+    width: 0;
+    height: 5px;
+    background: #51B56D;
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transition: 1s;
+	
+	
+	
+    
+}
+
+.navbar-menu>li>a:hover{
+  color:#51B56D;
+	
+}
+
+.navbar-menu>li>a:hover::after{
+    width: 100%;
+    left: 0;
+	
+}
+/*------*/
+
+.banner{
+	display:flex;
+	width:90%;
+	justify-content:space-between;
+	margin-left:5%;
+	margin-top:5%;
+	
+	
+}
+.banner1{
+	flex-basis:43%;
+	
+}
+.banner1 h1{
+	font-size:52px;
+	color:#040404;
+	font-weight:900;
+	padding:5px;
+}
+.banner1 p{
+	font-size:16px;
+	color:#888888;
+	margin:20px 0px;
+	font-weight:400;
+
+}
+.btn3{
+	   padding: 14px 20px;
+	color:#fff;
+    font-size: 16px;    
+    font-weight: 700;   
+    border-radius: 5px;    
+   margin-top:20px;
+    background-color: #51B56D;
+   border:0;
+   cursor: pointer;
+	display:block;
+}
+.arrow{
+	margin-left:10px;
+}
+
+.banner2{
+	flex-basis:50%;
+}
+.OUR-SERVICES{
+	display:flex;
+	justify-content:space-between;
+	width:90%;
+	margin-left:5%;
+	flex-wrap:wrap;
+	margin-top:10%;
+	
+}
+.our{
+	flex-basis:100%;
+	margin-bottom:15px;
+	
+	
+}
+.SERVICES{
+	flex-basis:100%;
+
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.SERVICES1{
+	flex-basis:24%;
+	margin-bottom:50px;
+
+	
+	
+	
+}
+#new{
+	margin-right:6%;
+	
+}
+.SERVICES2{
+	flex-basis:30%;
+	margin-bottom:50px;
+	
+	
+	
+	
+}
+
+.SERVICES1 h3:hover{
+	color:#51B57F;
+	
+}
+.our p{
+	color:#51B57F;
+	font-size:16px;
+	font-weight:bold;
+}
+.SERVICES2 h1{
+	color:#040404;
+	font-size:44px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.SERVICES1 h3{
+	color:#040404;
+	font-size:24px;
+	font-weight:bold;
+	margin-bottom:15px;
+} 
+.SERVICES1 p{
+	color:#968888;
+	font-size:16px;
+	
+	margin-bottom:15px;
+}
+.SERVICES2 p{
+	color:#968888;
+	font-size:16px;
+	
+	margin-bottom:15px;
+}
+.colored-box{
+	color:#A77AEB;
+	background:#E9E4FB;
+	font-size:24px;
+	font-weight:900;
+	padding:10px;
+	text-align:center;
+	border-radius:5px;
+	margin-bottom:15px;
+	display:inline-block;
+}
+.colored{
+	color:#51B56D;
+	background:#DCF0E2;
+	font-size:24px;
+	font-weight:900;
+	padding:10px;
+	text-align:center;
+		border-radius:5px;
+		margin-bottom:15px;
+		display:inline-block;
+}
